@@ -24,7 +24,6 @@ public class StepDefinitions {
     }
     @Then("O resposta seria {string}")
     public void o_resposta_seria(String respostaFinal) {
-        // Write code here that turns the phrase above into concrete actions
         assertEquals(respostaFinal, respostaAtual);
     }
 }
